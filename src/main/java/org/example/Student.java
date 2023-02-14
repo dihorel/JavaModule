@@ -18,10 +18,11 @@ public class Student {
     String firstName;
     String lastName;
     int yearOfBirth;
+    int currentYear=2023;
     String phoneNumber;
 
     int age(int yearOfBirth){
-        return 2023-yearOfBirth;
+        return currentYear-yearOfBirth;
     }
 
 }
