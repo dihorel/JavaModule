@@ -1,5 +1,5 @@
 package org.example;
-
+/*
 public interface SubjectsI {
 
         public void courseDuration(int hours);
@@ -11,5 +11,5 @@ public interface SubjectsI {
     }
 
 
-
+*/
 
