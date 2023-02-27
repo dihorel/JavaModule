@@ -33,7 +33,19 @@ public class MainBoxing {
         j=val.intValue();
         System.out.println(j);
 
+
+        Integer intNr=7;
+        System.out.println(intNr+ " is " + checkNr(intNr));
+        intNr=2;
+        System.out.println(intNr+ " is " + checkNr(intNr));
+
     }
+
+    public static String checkNr(int input){
+        if(input%2==0)
+            return "even";
+        else
+            return "odd";}
 
 
 }
