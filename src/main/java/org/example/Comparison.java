@@ -73,7 +73,7 @@ public class Comparison {
 
         //!
         Scanner scan1=new Scanner(System.in);
-        System.out.println("To log out press Y  or y \n");
+        System.out.println("To Log out press Y  or y \n");
         String input1=scan1.next();
         if(!input1.equals("Y") && !input1.equals("y")){
             System.out.println("You are still logged in");
